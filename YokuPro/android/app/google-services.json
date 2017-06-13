@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "849795977913",
+    "firebase_url": "https://traxerp-166005.firebaseio.com",
+    "project_id": "traxerp-166005",
+    "storage_bucket": "traxerp-166005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849795977913:android:2335f0e9c84d06a9",
+        "android_client_info": {
+          "package_name": "com.pushnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849795977913-i7vcvmc1dauuvj6j7m0apg2ru8kdhq2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcLYUUZjMG4g3qy6z9OfeCq2HmBgKZx1Y"
+        },
+        {
+          "current_key": "AIzaSyAxKc8x9v29r-JNgppDuvY1bkDMRrLlEHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849795977913:android:56b7573930c70334",
+        "android_client_info": {
+          "package_name": "com.yokupro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849795977913-i7vcvmc1dauuvj6j7m0apg2ru8kdhq2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcLYUUZjMG4g3qy6z9OfeCq2HmBgKZx1Y"
+        },
+        {
+          "current_key": "AIzaSyAxKc8x9v29r-JNgppDuvY1bkDMRrLlEHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
