@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "581765190182",
+    "firebase_url": "https://yokupro-ddbcd.firebaseio.com",
+    "project_id": "yokupro-ddbcd",
+    "storage_bucket": "yokupro-ddbcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581765190182:android:56b7573930c70334",
+        "android_client_info": {
+          "package_name": "com.yokupro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581765190182-k08dvk5coni3mchjcmjctiq1aqprpnv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA19jxx3IrB7XCdOll8VzIIzQG4IZTmeaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
