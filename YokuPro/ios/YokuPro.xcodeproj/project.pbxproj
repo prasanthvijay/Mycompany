@@ -83,7 +83,6 @@
 		705669E4C46C4574ADE9A326 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89EB03C1CD5147E68E186253 /* Zocial.ttf */; };
 		4C774DD6D178446B8C1FA86C /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FC321F079C42D5B2EC740A /* libSplashScreen.a */; };
 		2E668511B8BF437AA9857F77 /* libRNSpinkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5BE4FB0650494598107CAB /* libRNSpinkit.a */; };
-		029067FF1B554615837DEA00 /* libRNGCM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DDB05E2F984EA39909F70C /* libRNGCM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -355,8 +354,6 @@
 		29FC321F079C42D5B2EC740A /* libSplashScreen.a */ = {isa = PBXFileReference; name = "libSplashScreen.a"; path = "libSplashScreen.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		5826E1C4282B4271B71F194B /* RNSpinkit.xcodeproj */ = {isa = PBXFileReference; name = "RNSpinkit.xcodeproj"; path = "../node_modules/react-native-spinkit/ios/RNSpinkit.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		6E5BE4FB0650494598107CAB /* libRNSpinkit.a */ = {isa = PBXFileReference; name = "libRNSpinkit.a"; path = "libRNSpinkit.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		FF465063403A4D1BA188294E /* RNGCM.xcodeproj */ = {isa = PBXFileReference; name = "RNGCM.xcodeproj"; path = "../node_modules/react-native-gcm-push-notification/ios/RNGCM.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		04DDB05E2F984EA39909F70C /* libRNGCM.a */ = {isa = PBXFileReference; name = "libRNGCM.a"; path = "libRNGCM.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,7 +384,6 @@
 				53DB750FE4464CC2AC76D96F /* libRNVectorIcons.a in Frameworks */,
 				4C774DD6D178446B8C1FA86C /* libSplashScreen.a in Frameworks */,
 				2E668511B8BF437AA9857F77 /* libRNSpinkit.a in Frameworks */,
-				029067FF1B554615837DEA00 /* libRNGCM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +554,6 @@
 				2970B93DE39346D9A38B962B /* RNVectorIcons.xcodeproj */,
 				31170893C57E4A7AA4CEF852 /* SplashScreen.xcodeproj */,
 				5826E1C4282B4271B71F194B /* RNSpinkit.xcodeproj */,
-				FF465063403A4D1BA188294E /* RNGCM.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1190,7 +1185,6 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-gcm-push-notification/ios",
 				);
 			};
 			name = Debug;
@@ -1218,7 +1212,6 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-gcm-push-notification/ios",
 				);
 			};
 			name = Release;
@@ -1244,7 +1237,6 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-gcm-push-notification/ios",
 				);
 			};
 			name = Debug;
@@ -1269,7 +1261,6 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-gcm-push-notification/ios",
 				);
 			};
 			name = Release;
@@ -1306,7 +1297,6 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-gcm-push-notification/ios",
 				);
 			};
 			name = Debug;
@@ -1343,7 +1333,6 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-gcm-push-notification/ios",
 				);
 			};
 			name = Release;

@@ -3,7 +3,6 @@ package com.yokupro;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.oney.gcm.GcmPackage;
 import com.react.rnspinkit.RNSpinkitPackage;
 import com.cboy.rn.splashscreen.SplashScreenReactPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
@@ -29,7 +28,6 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new GcmPackage(),
             new RNSpinkitPackage(),
             new SplashScreenReactPackage(),
             new VectorIconsPackage(),
